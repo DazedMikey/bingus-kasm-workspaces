@@ -4,7 +4,7 @@ const nextConfig = {
   env: {
     name: 'Bingus Workspaces',
     description: 'My own collection of custom workspaces.',
-    icon: 'https://domain.com/1.0/potassium.png',
+    icon: 'https://dazedmikey.github.io/kasm-registry/1.0/potassium.png',
     listUrl: 'https://dazedmikey.github.io/kasm-registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
