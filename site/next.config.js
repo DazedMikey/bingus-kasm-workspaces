@@ -5,7 +5,7 @@ const nextConfig = {
     name: 'Bingus Workspaces',
     description: 'My own collection of custom workspaces.',
     icon: 'https://domain.com/1.0/potassium.png',
-    listUrl: 'https://registry.kasmweb.com/',
+    listUrl: 'https://dazedmikey.github.io/kasm-registry/',
     contactUrl: 'https://kasmweb.com/support',
   },
   reactStrictMode: true,
