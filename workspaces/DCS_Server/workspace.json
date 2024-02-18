@@ -2,14 +2,14 @@
   "description": "This is a DCS server with winetricks.",
   "docker_registry": "https://index.docker.io/v1/",
   "name": "dazedmikey/kasm-dcs-server:latest",
-  "image_src": "DCS_Icon.png",
+  "image_src": "chromium.png",
   "categories": [
     "Desktop"
   ],
   "run_config": {
     "hostname": "kasm"
   },
-  "friendly_name": "DCS Server Host",
+  "friendly_name": "DCS-Server",
   "architecture": [
     "amd64"
   ],
