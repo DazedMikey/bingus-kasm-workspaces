@@ -1,29 +1,18 @@
 {
-  "description": "DCS server container that will autolaunch everything you need",
-  "docker_registry": "https://registry.hub.docker.com/v2/",
-  "image_src": "DCS_Icon.png",
+  "description": "This is a DCS server with winetricks.",
+  "docker_registry": "https://index.docker.io/v1/",
   "name": "dazedmikey/kasm-dcs-server:latest",
-  "run_config": {
-    "hostname": "kasm"
-  },
-  "exec_config": {
-    "go": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --go --url \"$KASM_URL\"'"
-    },
-    "assign": {
-      "cmd": "bash -c '/dockerstartup/custom_startup.sh --assign --url \"$KASM_URL\"'"
-    }
-  },
+  "image_src": "DCS_Icon.png",
   "categories": [
     "Game Server"
   ],
-  "friendly_name": "DCS Server",
+  "friendly_name": "DCS Server Host",
   "architecture": [
-    "amd64"
+    "amd64",
+    "arm64"
   ],
   "compatibility": [
-    "1.13.x",
-    "1.14.x"
+    "1.13.x"
   ],
-  "uncompressed_size_mb": 6963
+  "uncompressed_size_mb": 6800
 }
