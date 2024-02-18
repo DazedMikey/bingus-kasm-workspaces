@@ -1,6 +1,6 @@
 {
   "description": "DCS server container that will autolaunch everything you need",
-  "docker_registry": "https://hub.docker.io/v1/",
+  "docker_registry": "https://registry.hub.docker.com/v2/",
   "image_src": "DCS_Icon.png",
   "name": "dazedmikey/kasm-dcs-server:latest",
   "run_config": {
