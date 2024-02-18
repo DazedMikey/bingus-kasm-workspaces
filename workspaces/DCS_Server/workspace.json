@@ -4,7 +4,7 @@
   "name": "dazedmikey/kasm-dcs-server:latest",
   "image_src": "DCS_Icon.png",
   "categories": [
-    "Game Server"
+    "Desktop"
   ],
   "run_config": {
     "hostname": "kasm"
