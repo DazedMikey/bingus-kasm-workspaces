@@ -1,6 +1,6 @@
 {
   "description": "This is a DCS server with winetricks.",
-  "docker_registry": "https://registry-1.docker.io/v2/",
+  "docker_registry": "https://index.docker.io/v1/",
   "name": "dazedmikey/kasm-dcs-server:latest",
   "image_src": "DCS_Icon.png",
   "categories": [
